@@ -1,0 +1,67 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+p {
+  margin: 0 0 0.3em 0;
+  padding: 0;
+}
+.piece {
+  background: #fff;
+  color: #2e373a;
+  font-size: 1.5em;
+  height: 5em;
+  margin: 0 1em 0.8em;
+  padding: 0.5em;
+  position: relative;
+  width: auto;
+  box-shadow: 2px 2px 5px #888;
+}
+.info {
+  padding: 0.5em;
+  text-decoration: none;
+  color: #2e373a;
+}
+.land {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.metric {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+.metric p {
+  font-size: 1.2rem;
+}
+.metric .temperatura {
+  color: #0c758e;
+}
+.metric .humedad {
+  color: #9c0000;
+}
+@media screen and (min-width: 600px) {
+  .piece {
+    width: 40%;
+    float: left;
+    margin: 0 0.5em 0.8em 1em;
+  }
+}
+@media screen and (min-width: 750px) {
+  .piece {
+    width: 42%;
+  }
+}
+@media screen and (min-width: 1180px) {
+  .piece {
+    width: 43%;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .piece {
+    width: 44%;
+  }
+}

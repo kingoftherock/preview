@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<title>Ámbar</title>
+
+		<link rel="stylesheet" type="text/css" href="css/stats.css" />
+		<link rel="stylesheet" type="text/css" href="css/principal.css" />
+		<link rel="shortcut icon" href="favicon.ico"> 
+		<link rel="stylesheet" href="css/pushy.css">
+		<link href='img/1.png' rel='shortcut icon' type='image/png'>
+		<script src="js/jquery-2.1.1.min.js"></script>
+		<script src="js/Chart.js"></script>
+		
+		
+	</head>
+	<body>
+	<header class="header relative border-bottom">
+		<a href="#" class="icon-menu left menu-btn"></a>
+		<div class="logo">
+			<div class="ambar">
+				<span>
+					Ámbar
+				</span>
+			</div>
+			<div class="search right">
+				<form action="">
+					<input type="text" placeholder="Buscar"/>
+					<input type="submit"/>
+					<a href="#" class="icon-search"></a>	
+				</form>
+			</div>
+		</div>
+	</header>
+	<nav class="pushy pushy-left">
+		<ul class="">
+			<li class="item">
+				<a href="index.html"> 
+					<span class="icon-home"></span>
+					Home
+				</a>
+			</li>
+			<li class="item">
+				<a href="templates/profile.html"> 
+					<span class="icon-usuario"></span>
+					Perfil
+				</a>
+			</li>
+			<li class="item">
+				<a href="templates/salas.html">
+					<span class="icon-stats"></span>
+					Salas
+				</a>
+			</li>
+			<li class="item">
+				<a href="templates/piezas.html"> 
+					<span class="icon-bars"></span>
+					Piezas
+				</a>
+			</li>
+			<li class="item">
+				<a href="#"> 
+					<span class="icon-left"></span>
+					Salir
+				</a>
+			</li>
+		</ul>
+	</nav>
+	<div class="site-overlay"></div>
+	<section class="container center">
+		<div class="menu">
+			<ul class="/templates/piezas.html">
+				<a href="index.html"> 
+					<li class="item">
+						<span class="icon-home"></span>
+						Home
+					</li>
+				</a>
+				<a href="templates/profile.html"> 
+					<li class="item">
+						<span class="icon-usuario"></span>
+						Perfil
+					</li>
+				</a>
+				<a href="templates/salas.html">
+					<li class="item">
+						<span class="icon-stats"></span>
+						Salas
+					</li>
+				</a>
+				<a href="templates/piezas.html"> 
+					<li class="item">
+						<span class="icon-bars"></span>
+						Piezas
+					</li>
+				</a>
+				<a href="#"> 
+					<li class="item">
+						<span class="icon-left"></span>
+						Salir
+					</li>
+				</a>
+			</ul>
+		</div>
+		<div class="cont2">
+			<article class="lolo">
+				<canvas id="canvas" height="400" width="1280"></canvas>
+			</article>
+			<article class="data">
+				<p id="name">Pieza</p>
+				<p id="room">Sala</p>
+				<div class="info">
+					<p class="tempe">
+						<span class="icon-temp"></span>Temperatura: X°
+					</p>
+					<p class="hume">
+						<span class="icon-droplet"></span>Humedad: X%
+					</p>
+				</div>
+			</article>
+			<article class="statistics">
+				<div class="temp stat" data-percent="23">
+				    <span class="celcius size"></span>
+				    <p>Temperatura</p>
+				</div>
+				<div class="hum stat" data-percent="40">
+				    <span class="percent size"></span>
+				    <p>Húmedad</p>
+				</div>
+		
+			</article>
+		</div>
+	</section>
+	<script src="js/pushy.js"></script>
+		<script src="js/easypiechart.js"></script>
+		<script src="js/graf.js"></script>
+	</body>
+</html>
